@@ -72,7 +72,3 @@ The Receiver Operating Characteristic (ROC) curve is plotted to illustrate the t
 ![Screenshot 2024-10-16 021258](https://github.com/user-attachments/assets/add9cec0-2763-4099-884d-f5c2c80e3d47)
 ![Screenshot 2024-10-16 021154](https://github.com/user-attachments/assets/e5c6e7d8-824c-4ff1-88e7-d813903728f5)
 
-You can install the dependencies using:
-
-```bash
-pip install -r requirements.txt
