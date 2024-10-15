@@ -48,8 +48,27 @@ To run the project, you will need the following Python libraries:
 - `imblearn`
 - `matplotlib`
 
+## Evaluation Metrics
+
+- Accuracy: Measures the overall correctness of the model.
+- Confusion Matrix: Provides insight into true positives, false positives, true negatives, and false negatives.
+- ROC-AUC: A performance measurement for classification problems at various threshold settings.
+
+## Feature Importance
+
+A bar plot is provided to visualize the importance of the top 20 features in the model. These features represent sensor readings that contribute the most to the prediction of system failures.
+
+## ROC Curve
+
+The Receiver Operating Characteristic (ROC) curve is plotted to illustrate the trade-off between the true positive rate and the false positive rate at various classification thresholds.
+
+## Future Work
+
+- Explore other machine learning models such as Gradient Boosting or XGBoost to improve performance.
+- Further tune hyperparameters to maximize predictive accuracy.
+- Experiment with different feature engineering techniques for better model interpretability.
+  
 You can install the dependencies using:
 
 ```bash
 pip install -r requirements.txt
-
